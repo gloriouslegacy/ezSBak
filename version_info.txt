@@ -1,0 +1,50 @@
+# UTF-8로 저장
+
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    # 파일 버전 (예: 1.0.0.0)
+    filevers=(0, 5, 3, 0),
+    # 제품 버전 (예: 1.0.0.0)
+    prodvers=(0, 5, 3, 0),
+    mask=0x3f,
+    flags=0x0,
+    OS=0x40004,
+    fileType=0x1,
+    subtype=0x0,
+    date=(0, 0)
+    ),
+  kids=[
+    StringFileInfo(
+      [
+      StringTable(
+        # 언어 코드 (예: 한국어: 041204B0, 영어(미국): 040904B0)
+        u'041204B0',
+        [
+        StringStruct(u'Comments', u''),
+        # 회사 이름
+        StringStruct(u'CompanyName', u'ez'),
+        # 파일 설명
+        StringStruct(u'FileDescription', u'ezSBAK'),
+        # 파일 버전
+        StringStruct(u'FileVersion', u'0.5.3.0'),
+        # 내부 이름 (일반적으로 실행 파일 이름)
+        StringStruct(u'InternalName', u'ezSBAK.exe'),
+        # 저작권
+        StringStruct(u'LegalCopyright', u'Copyright © 2025 ez All rights reserved.'),
+        # 상표
+        StringStruct(u'LegalTrademarks', u''),
+        # 원본 파일 이름 (실행 파일 이름)
+        StringStruct(u'OriginalFilename', u'ezSBAK.exe'),
+        # 제품 이름
+        StringStruct(u'ProductName', u'sc_ezBAK'),
+        # 제품 버전
+        StringStruct(u'ProductVersion', u'0.5.3.0'),
+        # 특수 빌드 정보
+        StringStruct(u'SpecialBuild', u'')
+        ]
+      )
+      ]
+    ),
+    VarFileInfo([VarStruct(u'Translation', [0x0412, 1200])]) # 0x0412: 한국어, 1200: Windows Multilingual
+  ]
+)

@@ -1,0 +1,8 @@
+# PyInstaller
+pyinstaller>=6.0.0
+
+# Windows API 접근용 (선택적 - 없으면 ctypes fallback 사용)
+pywin32>=306
+
+# 시스템 정보 (선택적 - 없으면 기본 기능만 사용)
+psutil>=5.9.0
